@@ -4,8 +4,8 @@ Welcome to the **CSE211s Final Project** repository! This project involves imple
 
 ## Table of Contents
 
-- [About the Project](#about-the-project)
 - [Team Members](#team-members)
+- [About the Project](#about-the-project)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
