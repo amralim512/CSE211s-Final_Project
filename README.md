@@ -1,6 +1,6 @@
 # CSE211s Final Project
 
-Welcome to the **CSE211s Final Project** repository! This project is part of the coursework for CSE211s, and it contains the implementation and documentation of our final project.
+Welcome to the **CSE211s Final Project** repository! This project involves implementing a real-time clock (RTC) and an analog signal display using the Nucleo board and the Arduino multifunction shield. The project has been developed using the Mbed IDE and demonstrates embedded systems programming and hardware interfacing.
 
 ## Table of Contents
 
@@ -16,7 +16,23 @@ Welcome to the **CSE211s Final Project** repository! This project is part of the
 
 ## About the Project
 
-Provide a brief overview of your project here. Include information about its purpose, goals, and the problem it aims to solve.
+This project uses the Nucleo board and the Arduino multifunction shield to implement the following functionality:
+
+### Real-Time Clock (RTC)
+
+- After the board resets, the 7-segment display begins counting the elapsed time in minutes and seconds starting from zero.
+  - The least two digits count the **seconds**.
+  - The higher digits count the **minutes**.
+- Pressing **switch S1** at any time restarts the clock from zero.
+
+### Analog Signal Value Display
+
+- The **on-board potentiometer** is used to generate a variable voltage input to the on-chip ADC.
+- Pressing **switch S3**:
+  - The 7-segment display shows the ADC’s input voltage value in volts.
+  - The RTC continues running in the background while S3 is pressed.
+- Releasing **switch S3**:
+  - The 7-segment display switches back to displaying time.
 
 ## Team Members
 
@@ -25,50 +41,44 @@ Provide a brief overview of your project here. Include information about its pur
 
 ## Features
 
-- Highlight key features of the project
-- Include anything notable or interesting
-- Example: "Real-time data processing," "Interactive UI," "Custom algorithms"
+- Real-Time Clock (RTC) functionality with restart capability.
+- Analog-to-Digital Conversion (ADC) for voltage measurement.
+- Dynamic 7-segment display switching between time and voltage values.
+- Seamless integration of hardware components via the Nucleo board and Arduino multifunction shield.
 
 ## Technologies Used
 
-List the technologies, libraries, or frameworks you used in this project. For example:
-
-- Python
-- Flask
-- JavaScript
-- React
-- MySQL
+- **Mbed IDE** for embedded systems development.
+- **Nucleo Board** as the microcontroller platform.
+- **Arduino Multifunction Shield** for interfacing switches, potentiometer, and 7-segment display.
 
 ## Installation
 
-Explain how to set up the project locally. For example:
+To set up the project locally:
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/amralim512/CSE211s-Final_Project.git
    ```
-2. Navigate into the project directory:
-   ```bash
-   cd CSE211s-Final_Project
-   ```
-3. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+2. Import the project into the **Mbed IDE**.
+
+3. Connect the **Nucleo board** and ensure the hardware setup matches the project requirements.
+
+4. Compile and flash the code to the board.
 
 ## Usage
 
-Provide instructions on how to run or use the project. For example:
-
-```bash
-python main.py
-```
-
-Include screenshots or examples if applicable.
+1. Connect the Nucleo board with the Arduino multifunction shield.
+2. Power on the board and observe the 7-segment display:
+   - The display will start counting time from zero.
+3. Interact with the system:
+   - **Press S1**: Restart the clock.
+   - **Press S3**: Display the ADC input voltage in volts.
+   - **Release S3**: Switch back to displaying time.
 
 ## Contributing
 
-Contributions are welcome! If you would like to contribute, please follow these steps:
+Contributions are welcome! Please follow these steps:
 
 1. Fork the repository.
 2. Create a new feature branch:
@@ -87,16 +97,14 @@ Contributions are welcome! If you would like to contribute, please follow these 
 
 ## License
 
-Specify the project's license. For instance:
-
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
 ## Contact
 
 If you have any questions or want to get in touch, please contact:
 
-- **[Your Name]**
+- **Abdelrhman Yasser Adel** - ID: 2000414
+- **Amr Adel Abdel Alim** - ID: 2000959
 - GitHub: [amralim512](https://github.com/amralim512)
-- Email: [your-email@example.com]
 
 Feel free to contribute or report issues on GitHub!
