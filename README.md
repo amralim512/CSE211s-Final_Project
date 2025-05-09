@@ -4,16 +4,13 @@ Welcome to the **CSE211s Final Project** repository! This project involves imple
 
 ## Table of Contents
 
-- [Team Members](#team-members)
 - [About the Project](#about-the-project)
+- [Team Members](#team-members)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-  
+- [Project Demo](#project-demo)
+
 ## Team Members
 
 - **Abdelrhman Yasser Adel** - ID: 2000414
@@ -39,7 +36,6 @@ This project uses the Nucleo board and the Arduino multifunction shield to imple
 - Releasing **switch S3**:
   - The 7-segment display switches back to displaying time.
 
-
 ## Features
 
 - Real-Time Clock (RTC) functionality with restart capability.
@@ -53,20 +49,6 @@ This project uses the Nucleo board and the Arduino multifunction shield to imple
 - **Nucleo Board** as the microcontroller platform.
 - **Arduino Multifunction Shield** for interfacing switches, potentiometer, and 7-segment display.
 
-## Installation
-
-To set up the project locally:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/amralim512/CSE211s-Final_Project.git
-   ```
-2. Import the project into the **Mbed IDE**.
-
-3. Connect the **Nucleo board** and ensure the hardware setup matches the project requirements.
-
-4. Compile and flash the code to the board.
-
 ## Usage
 
 1. Connect the Nucleo board with the Arduino multifunction shield.
@@ -77,35 +59,7 @@ To set up the project locally:
    - **Press S3**: Display the ADC input voltage in volts.
    - **Release S3**: Switch back to displaying time.
 
-## Contributing
+## Project Demo
 
-Contributions are welcome! Please follow these steps:
+To demonstrate the project, you can upload a video showcasing its functionality. Follow these steps to upload a video to
 
-1. Fork the repository.
-2. Create a new feature branch:
-   ```bash
-   git checkout -b feature/YourFeature
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m "Add YourFeature"
-   ```
-4. Push to the branch:
-   ```bash
-   git push origin feature/YourFeature
-   ```
-5. Open a Pull Request.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
-
-## Contact
-
-If you have any questions or want to get in touch, please contact:
-
-- **Abdelrhman Yasser Adel** - ID: 2000414
-- **Amr Adel Abdel Alim** - ID: 2000959
-- GitHub: [amralim512](https://github.com/amralim512)
-
-Feel free to contribute or report issues on GitHub!
