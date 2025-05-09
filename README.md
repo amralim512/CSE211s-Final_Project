@@ -13,6 +13,11 @@ Welcome to the **CSE211s Final Project** repository! This project involves imple
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
+  
+## Team Members
+
+- **Abdelrhman Yasser Adel** - ID: 2000414
+- **Amr Adel Abdel Alim** - ID: 2000959
 
 ## About the Project
 
@@ -34,10 +39,6 @@ This project uses the Nucleo board and the Arduino multifunction shield to imple
 - Releasing **switch S3**:
   - The 7-segment display switches back to displaying time.
 
-## Team Members
-
-- **Abdelrhman Yasser Adel** - ID: 2000414
-- **Amr Adel Abdel Alim** - ID: 2000959
 
 ## Features
 
