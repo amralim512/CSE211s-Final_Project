@@ -61,6 +61,5 @@ This project uses the Nucleo board and the Arduino multifunction shield to imple
    - **Release S3**: Switch back to displaying time.
 
 ## Project Demo
-
-To demonstrate the project, you can upload a video showcasing its functionality. Follow these steps to upload a video to
+"D:\ENGINEERING\Spring 25\Embedded\Project\CSE211s Final_Project\CSE211s-Final_Project\Demo Video.mp4"
 
